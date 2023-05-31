@@ -18,6 +18,13 @@ smallCards.forEach(function(card) {
     
   });
 });
+function toggleForm() {
+  var form = document.getElementById('messageForm');
+  form.style.display = form.style.display === 'none' ? 'block' : 'none';
+}
+
+
+
 
 
 

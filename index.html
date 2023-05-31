@@ -40,7 +40,7 @@
 	<section class="card-container">
 		<div class="card large-card" id="project0">
 			<div class="image">
-				<a href="https://github.com/unaig2878/Proyecto-Grande"><img src="image/sistema de pago.jpg"></a>
+				<a href="https://github.com/unaig2878/Practica_FInal"><img src="image/sistema de pago.jpg"></a>
 			</div>
 			<div class="content-2">
 				<h2>Proyecto Grande</h2>
@@ -51,7 +51,7 @@
 		<div class="small-cards">
 			<div class="card small-card" id="project1">
 				<div class="image">
-					<a href="https://github.com/unaig2878/Proyecto-1"><img src="image/sistema de pago.jpg"></a>
+					<a href="https://github.com/unaig2878/Practica_FInal"><img src="image/sistema de pago.jpg"></a>
 				</div>
 				<div class="content-2">
 					<h2>Proyecto 1</h2>
@@ -61,7 +61,7 @@
 	
 			<div class="card small-card" id="project2">
 				<div class="image">
-					<a href="https://github.com/unaig2878/Proyecto-2"><img src="image/sistema de pago.jpg"></a>
+					<a href="https://github.com/unaig2878/Practica_FInal"><img src="image/sistema de pago.jpg"></a>
 				</div>
 				<div class="content-2">
 					<h2>Proyecto 2</h2>
@@ -71,7 +71,7 @@
 	
 			<div class="card small-card" id="project3">
 				<div class="image">
-					<a href="https://github.com/unaig2878/Proyecto-3"><img src="image/sistema de pago.jpg"></a>
+					<a href="https://github.com/unaig2878/Practica_FInal"><img src="image/sistema de pago.jpg"></a>
 				</div>
 				<div class="content-2">
 					<h2>Proyecto 3</h2>
@@ -81,7 +81,7 @@
 	
 			<div class="card small-card" id="project4">
 				<div class="image">
-					<a href="https://github.com/unaig2878/Proyecto-4"><img src="image/sistema de pago.jpg"></a>
+					<a href="https://github.com/unaig2878/Practica_FInal"><img src="image/sistema de pago.jpg"></a>
 				</div>
 				<div class="content-2">
 					<h2>Proyecto 4</h2>
@@ -91,7 +91,7 @@
 	
 			<div class="card small-card" id="project5">
 				<div class="image">
-					<a href="https://github.com/unaig2878/Proyecto-5"><img src="image/sistema de pago.jpg"></a>
+					<a href="https://github.com/unaig2878/Practica_FInal"><img src="image/sistema de pago.jpg"></a>
 				</div>
 				<div class="content-2">
 					<h2>Proyecto 5</h2>
@@ -101,7 +101,7 @@
 	
 			<div class="card small-card" id="project6">
 				<div class="image">
-					<a href="https://github.com/unaig2878/Proyecto-6"><img src="image/sistema de pago.jpg"></a>
+					<a href="https://github.com/unaig2878/Practica_FInal"><img src="image/call.png"></a>
 				</div>
 				<div class="content-2">
 					<h2>Proyecto 6</h2>
@@ -145,26 +145,26 @@
 	<section class="section">
 		<div class="container-2">
 		
-		  <button class="show-form-button" href="#messageForm">Show Form</button>
-		  <form class="formbox" id="messageForm">
+		  <button class="show-form-button" onclick="toggleForm()">Show Form</button>
+		  <form class="formbox" id="messageForm" method="POST" action="php/main.php">
 			<div class="inputbox name" id="name">
-			  <input type="text" required>
+			  <input type="text" name="nombre" required>
 			  <span>First Name</span>
 			</div>
 			<div class="inputbox name">
-			  <input type="text" required>
+			  <input type="text" name="apellido" required>
 			  <span>Last Name</span>
 			</div>
 			<div class="inputbox email">
-			  <input type="email" required>
+			  <input type="email" name="email" required>
 			  <span>Email Address</span>
 			</div>
 			<div class="inputbox phone">
-			  <input type="number" required>
+			  <input type="number" name="telefono" required>
 			  <span>Mobile Number</span>
 			</div>
 			<div class="inputbox massage">
-			  <textarea required></textarea>
+			  <textarea name="mensaje" required></textarea>
 			  <span>Write your message here...</span>
 			</div>
 			<div class="inputbox submit">
